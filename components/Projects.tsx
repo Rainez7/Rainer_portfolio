@@ -51,7 +51,7 @@ const projects = [
     title: "Silverskincoffe",
     description:
       "Developed and maintained an e-commerce coffee brand platform. Implemented responsive UI components, online store functionality, SEO optimisation, analytics integration, and performance enhancements to deliver a scalable and user-friendly shopping experience across devices.",
-    image: "/Silverskincoffe.png",
+    image: "/silverskincoffe.png",
     color: "from-orange-500/20 to-rose-600/20",
     accent: "#f97316",
     tech: ["JavaScript", "jQuery", "PHP", "MySQL", "WordPress", "WooCommerce", "Bootstrap", "Cloudflare", "Google Analytics"],
