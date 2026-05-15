@@ -1,0 +1,241 @@
+"use client";
+
+import { useRef, useState } from "react";
+import { motion, useInView, AnimatePresence } from "framer-motion";
+import { ExternalLink, Star, GitFork } from "lucide-react";
+
+const projects = [
+  {
+    title: "Luxuryforyou",
+    description:
+      "Built and maintained frontend features for a luxury fashion e-commerce website using modern web technologies, focusing on responsive design, performance optimisation, reusable UI components, accessibility, and seamless user experience across desktop and mobile devices.",
+    image: "/luxuryforyou.png",
+    color: "from-indigo-500/20 to-purple-600/20",
+    accent: "#6366f1",
+    tech: ["HTML5", "CSS3", "JavaScript", "React", "Tailwind CSS", "Magento", "PHP"],
+    github: "#",
+    live: "https://luxuryforyou.com/gb_en",
+    stars: 248,
+    forks: 34,
+    featured: true,
+  },
+  {
+    title: "Verholy",
+    description:
+      "The website combines high-performance frontend development, mobile-friendly architecture, secure booking systems, API integrations, and optimised user journeys to create a premium online presence for a luxury resort and spa destination.",
+    image: "/Formify.png",
+    color: "from-purple-500/20 to-pink-600/20",
+    accent: "#a855f7",
+    tech: ["HTML5", "CSS3", "JavaScript", "React", "WordPress", "PHP", "jQuery", "MySQL"],
+    github: "#",
+    live: "https://verholy.com/en/",
+    stars: 512,
+    forks: 71,
+    featured: true,
+  },
+  {
+    title: "TrackMate",
+    description:
+      "I built TrackMate, a GPS journey tracking platform with responsive UI, real-time tracking, interactive maps, and performance analytics. I focused on creating a fast, user-friendly experience across web and mobile devices.",
+    image: "/trackmate.png",
+    color: "from-emerald-500/20 to-teal-600/20",
+    accent: "#10b981",
+    tech: ["HTML5", "JavaScript", "Typescript", "React.js", "Node.js", "Tailwind CSS"],
+    github: "#",
+    live: "https://www.trackmate.page/",
+    stars: 189,
+    forks: 22,
+    featured: true,
+  },
+  {
+    title: "Silverskincoffe",
+    description:
+      "Developed and maintained an e-commerce coffee brand platform. Implemented responsive UI components, online store functionality, SEO optimisation, analytics integration, and performance enhancements to deliver a scalable and user-friendly shopping experience across devices.",
+    image: "/Silverskincoffe.png",
+    color: "from-orange-500/20 to-rose-600/20",
+    accent: "#f97316",
+    tech: ["JavaScript", "jQuery", "PHP", "MySQL", "WordPress", "WooCommerce", "Bootstrap", "Cloudflare", "Google Analytics"],
+    github: "#",
+    live: "https://silverskincoffee.ie/",
+    stars: 97,
+    forks: 15,
+    featured: false,
+  },
+  {
+    title: "Puzzleslide",
+    description:
+      "Developed an interactive puzzle game web application. Implemented responsive UI components, dynamic game logic, optimised state management, and cloud deployment on Vercel to deliver a fast and engaging user experience.",
+    image: "/puzzleslide.png",
+    color: "from-cyan-500/20 to-blue-600/20",
+    accent: "#06b6d4",
+    tech: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React.js", "Next.js", "Tailwind CSS", "Vercel"],
+    github: "#",
+    live: "https://puzzleslide.vercel.app/",
+    stars: 143,
+    forks: 19,
+    featured: false,
+  },
+  {
+    title: "Forecast",
+    description:
+      "Real-time weather application with dark mode support, accurate live forecasts, and responsive user interface design. Built with modern frontend technologies to provide current weather conditions, hourly updates, location-based forecasting, temperature tracking, humidity, wind speed, and dynamic weather visuals.",
+    image: "/forecast.png",
+    color: "from-violet-500/20 to-fuchsia-600/20",
+    accent: "#8b5cf6",
+    tech: ["React.js", "Tailwind CSS", "Context API", "OpenWeather API"],
+    github: "#",
+    live: "https://main--sky-update.netlify.app/",
+    stars: 376,
+    forks: 48,
+    featured: false,
+  },
+];
+
+const container = {
+  hidden: {},
+  visible: { transition: { staggerChildren: 0.1 } },
+};
+
+const item = {
+  hidden: { opacity: 0, y: 28 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] } },
+};
+
+export default function Projects() {
+  const ref = useRef<HTMLElement>(null);
+  const inView = useInView(ref, { once: true, margin: "-80px" });
+  const [showAll, setShowAll] = useState(true);
+
+  const visibleProjects = showAll ? projects : projects.filter((p) => p.featured);
+
+  return (
+    <section id="projects" ref={ref} className="relative py-28 overflow-hidden">
+      {/* BG glow */}
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[700px] h-[400px] rounded-full bg-indigo-600/6 blur-[120px] pointer-events-none" />
+
+      <div className="max-w-6xl mx-auto px-6">
+        {/* Label */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.6 }}
+          className="flex items-center gap-3 mb-4"
+        >
+          <span className="text-xs font-mono font-medium text-indigo-400 tracking-widest uppercase">
+            Projects
+          </span>
+          <div className="h-px flex-1 max-w-[60px] bg-gradient-to-r from-indigo-500/50 to-transparent" />
+        </motion.div>
+
+        <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-14">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ delay: 0.1, duration: 0.6 }}
+            className="text-3xl sm:text-4xl md:text-5xl font-bold text-white"
+          >
+            Selected{" "}
+            <span className="gradient-text">work</span>
+          </motion.h2>
+
+        </div>
+
+        {/* Grid */}
+        <motion.div
+          variants={container}
+          initial="hidden"
+          animate={inView ? "visible" : "hidden"}
+          className="grid md:grid-cols-2 lg:grid-cols-3 gap-5"
+        >
+          <AnimatePresence mode="popLayout">
+            {visibleProjects.map((project) => (
+              <motion.article
+                key={project.title}
+                variants={item}
+                layout
+                exit={{ opacity: 0, scale: 0.94 }}
+                className="group glass rounded-2xl overflow-hidden hover:border-white/[0.12] transition-all duration-300 hover:shadow-[0_0_40px_rgba(0,0,0,0.4)] flex flex-col"
+              >
+                {/* Card header / visual */}
+                <div
+                  className={`relative h-36 bg-gradient-to-br ${project.color} overflow-hidden`}
+                >
+                  {project.image ? (
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="absolute inset-0 w-full h-full object-cover"
+                    />
+                  ) : (
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div
+                        className="w-16 h-16 rounded-2xl flex items-center justify-center text-2xl font-black text-white/20 border border-white/10"
+                        style={{ background: `${project.accent}20` }}
+                      >
+                        {project.title.slice(0, 2)}
+                      </div>
+                    </div>
+                  )}
+                  {/* Shine effect */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-white/[0.04] to-transparent" />
+
+                  {/* Hover overlay */}
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    whileHover={{ opacity: 1 }}
+                    className="absolute inset-0 bg-black/30 flex items-center justify-center gap-3 backdrop-blur-sm"
+                  >
+
+                    {project.live && (
+                      <a
+                        href={project.live}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-9 h-9 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 flex items-center justify-center text-white transition-colors"
+                        aria-label="Live demo"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        <ExternalLink size={15} />
+                      </a>
+                    )}
+                  </motion.div>
+                </div>
+
+                {/* Card body */}
+                <div className="flex flex-col flex-1 p-5">
+                  <div className="flex items-start justify-between gap-2 mb-2">
+                    <h3 className="text-base font-bold text-white group-hover:text-indigo-200 transition-colors">
+                      {project.title}
+                    </h3>
+                    <dl className="flex items-center gap-3 shrink-0">
+                      <div className="flex items-center gap-1 text-[11px] text-slate-500">
+                        <Star size={11} className="text-amber-400/70" aria-hidden="true" />
+                        <dt className="sr-only">Stars</dt>
+                        <dd>{project.stars}</dd>
+                      </div>
+                      <div className="flex items-center gap-1 text-[11px] text-slate-500">
+                        <GitFork size={11} aria-hidden="true" />
+                        <dt className="sr-only">Forks</dt>
+                        <dd>{project.forks}</dd>
+                      </div>
+                    </dl>
+                  </div>
+
+                  <p className="text-xs text-slate-500 leading-relaxed flex-1 mb-4">
+                    {project.description}
+                  </p>
+
+                  <ul role="list" aria-label="Technologies used" className="flex flex-wrap gap-1.5">
+                    {project.tech.map((t) => (
+                      <li key={t} className="tag text-[10px] py-0.5">{t}</li>
+                    ))}
+                  </ul>
+                </div>
+              </motion.article>
+            ))}
+          </AnimatePresence>
+        </motion.div>
+      </div>
+    </section>
+  );
+}
