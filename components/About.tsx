@@ -5,10 +5,10 @@ import { motion, useInView } from "framer-motion";
 import { MapPin, Coffee, Code2, Heart } from "lucide-react";
 
 const stats = [
-  { value: "6+", label: "Years Experience" },
-  { value: "40+", label: "Projects Shipped" },
-  { value: "15+", label: "Happy Clients" },
-  { value: "∞", label: "Cups of Coffee" },
+  { value: "6+", label: "Years of Experience" },
+  { value: "40+", label: "Projects Delivered" },
+  { value: "15+", label: "Satisfied Clients" },
+  { value: "50+", label: "Technologies Mastered" },
 ];
 
 const highlights = [
