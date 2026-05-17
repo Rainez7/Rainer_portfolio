@@ -106,6 +106,27 @@ export default function About() {
               experimenting with new frontend technologies.
             </motion.p>
 
+            {/* Highlights */}
+            <motion.ul
+              role="list"
+              initial="hidden"
+              animate={inView ? "visible" : "hidden"}
+              custom={5}
+              variants={fadeUp}
+              className="grid grid-cols-2 gap-3 pt-2"
+            >
+              {highlights.map(({ icon: Icon, text }) => (
+                <li
+                  key={text}
+                  className="flex items-center gap-2.5 text-sm text-slate-400"
+                >
+                  <div aria-hidden="true" className="w-7 h-7 rounded-lg bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center shrink-0">
+                    <Icon size={13} className="text-indigo-400" />
+                  </div>
+                  {text}
+                </li>
+              ))}
+            </motion.ul>
           </div>
 
           {/* Right — stats + globe visual */}
