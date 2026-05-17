@@ -2,13 +2,13 @@
 
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { MapPin, Coffee, Code2, Heart } from "lucide-react";
+import { MapPin, Coffee, Code2, Heart, TrendingUp } from "lucide-react";
 
 const stats = [
   { value: "6+", label: "Years of Experience" },
   { value: "10+", label: "Cross-border team collaboration" },
   { value: "40+", label: "Product launches delivered" },
-  { value: "∞", label: "Focused on SEO and performance" },
+  { value: null, icon: TrendingUp, label: "Focused on SEO and performance" },
 ];
 
 const highlights = [
@@ -122,7 +122,9 @@ export default function About() {
                   className="glass glass-hover rounded-2xl p-5 group"
                 >
                   <dd className="text-3xl sm:text-4xl font-extrabold gradient-text mb-1">
-                    {stat.value}
+                    {"icon" in stat && stat.icon
+                      ? <stat.icon size={36} className="text-indigo-400" />
+                      : stat.value}
                   </dd>
                   <dt className="text-xs text-slate-500 font-medium">{stat.label}</dt>
                 </motion.div>
