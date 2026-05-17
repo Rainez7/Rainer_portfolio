@@ -75,10 +75,7 @@ export default function About() {
               variants={fadeUp}
               className="text-base sm:text-lg text-slate-400 leading-relaxed"
             >
-              I&apos;m a frontend-focused software engineer with{" "}
-              6+ years of
-              experience building fast, accessible, and beautiful web
-              applications. I specialise in React and modern TypeScript ecosystems.
+              6+ years in engineering
             </motion.p>
 
             <motion.p
@@ -88,10 +85,7 @@ export default function About() {
               variants={fadeUp}
               className="text-base text-slate-500 leading-relaxed"
             >
-              Currently working full-time while taking on select freelance
-              projects. I care deeply about performance, design systems, and the
-              craft of turning complex problems into elegant, intuitive
-              interfaces.
+              Experience in cross-border team collaboration
             </motion.p>
 
             <motion.p
@@ -101,9 +95,17 @@ export default function About() {
               variants={fadeUp}
               className="text-base text-slate-500 leading-relaxed"
             >
-              When I&apos;m not coding, you&apos;ll find me reading about
-              distributed systems, contributing to open-source projects, or
-              experimenting with new frontend technologies.
+              Delivered 40+ product launches
+            </motion.p>
+
+            <motion.p
+              initial="hidden"
+              animate={inView ? "visible" : "hidden"}
+              custom={5}
+              variants={fadeUp}
+              className="text-base text-slate-500 leading-relaxed"
+            >
+              Focused on SEO and performance
             </motion.p>
 
           </div>
