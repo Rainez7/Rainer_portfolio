@@ -127,17 +127,6 @@ export default function Hero() {
       {/* Main content */}
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center pt-20">
         {/* Status badge */}
-        <motion.p
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2, duration: 0.6 }}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-8 text-xs font-medium text-emerald-400 border border-emerald-500/20 bg-emerald-500/[0.07]"
-          role="status"
-        >
-          <span aria-hidden="true" className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-          Available for work
-        </motion.p>
-
         {/* Name */}
         <motion.h1
           initial={{ opacity: 0, y: 24 }}
