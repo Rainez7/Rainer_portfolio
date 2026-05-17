@@ -106,27 +106,6 @@ export default function About() {
               experimenting with new frontend technologies.
             </motion.p>
 
-            {/* Highlights */}
-            <motion.ul
-              role="list"
-              initial="hidden"
-              animate={inView ? "visible" : "hidden"}
-              custom={5}
-              variants={fadeUp}
-              className="grid grid-cols-2 gap-3 pt-2"
-            >
-              {highlights.map(({ icon: Icon, text }) => (
-                <li
-                  key={text}
-                  className="flex items-center gap-2.5 text-sm text-slate-400"
-                >
-                  <div aria-hidden="true" className="w-7 h-7 rounded-lg bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center shrink-0">
-                    <Icon size={13} className="text-indigo-400" />
-                  </div>
-                  {text}
-                </li>
-              ))}
-            </motion.ul>
           </div>
 
           {/* Right — stats + globe visual */}
@@ -150,50 +129,6 @@ export default function About() {
               ))}
             </dl>
 
-            {/* World / Globe card */}
-            <motion.div
-              initial="hidden"
-              animate={inView ? "visible" : "hidden"}
-              custom={7}
-              variants={fadeUp}
-              className="glass glass-hover rounded-2xl p-6 overflow-hidden relative"
-            >
-              <div className="flex items-center justify-between mb-4">
-                <div>
-                  <p className="text-sm font-semibold text-white mb-0.5">Open to opportunities</p>
-                  <p className="text-xs text-slate-500">Remote · Contract · Full-time</p>
-                </div>
-                <div className="w-10 h-10 rounded-full bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
-                  <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
-                </div>
-              </div>
-
-              {/* Simple SVG world map hint */}
-              <div className="relative h-28 rounded-xl bg-[#0a0a1a] border border-white/[0.05] overflow-hidden flex items-center justify-center">
-                <div className="absolute inset-0 opacity-20"
-                  style={{
-                    backgroundImage: "radial-gradient(circle at 40% 50%, rgba(99,102,241,0.6) 0%, transparent 60%)",
-                  }}
-                />
-                <svg viewBox="0 0 400 180" className="w-full h-full opacity-30" fill="none">
-                  {/* Simplified continent shapes */}
-                  <ellipse cx="80" cy="70" rx="55" ry="45" fill="rgba(99,102,241,0.4)" />
-                  <ellipse cx="100" cy="120" rx="35" ry="25" fill="rgba(99,102,241,0.3)" />
-                  <ellipse cx="200" cy="65" rx="65" ry="50" fill="rgba(99,102,241,0.4)" />
-                  <ellipse cx="195" cy="120" rx="25" ry="30" fill="rgba(99,102,241,0.25)" />
-                  <ellipse cx="310" cy="60" rx="55" ry="40" fill="rgba(99,102,241,0.4)" />
-                  <ellipse cx="340" cy="100" rx="30" ry="20" fill="rgba(99,102,241,0.3)" />
-                  <ellipse cx="355" cy="130" rx="18" ry="22" fill="rgba(99,102,241,0.25)" />
-                </svg>
-                {/* Pulse dot on UK location */}
-                <div className="absolute" style={{ top: "28%", left: "46%" }}>
-                  <div className="relative w-2 h-2">
-                    <div className="absolute inset-0 rounded-full bg-indigo-400 animate-ping opacity-60" />
-                    <div className="relative w-2 h-2 rounded-full bg-indigo-400" />
-                  </div>
-                </div>
-              </div>
-            </motion.div>
           </div>
         </div>
       </div>
