@@ -8,7 +8,7 @@ const stats = [
   { value: "6+", label: "Years of Experience" },
   { value: "10+", label: "Cross-border team collaboration" },
   { value: "40+", label: "Product launches delivered" },
-  { value: "∞", label: "Focused on SEO and performance" },
+  { value: "30+", label: "Focused on SEO and performance" },
 ];
 
 const highlights = [
