@@ -76,7 +76,7 @@ export default function About() {
               className="text-base sm:text-lg text-slate-400 leading-relaxed"
             >
               I&apos;m a frontend-focused software engineer with{" "}
-              <span className="text-slate-200 font-medium">6+ years</span> of
+              6+ years of
               experience building fast, accessible, and beautiful web
               applications. I specialise in React and modern TypeScript ecosystems.
             </motion.p>
