@@ -78,10 +78,7 @@ export default function About() {
               I&apos;m a frontend-focused software engineer with{" "}
               <span className="text-slate-200 font-medium">6+ years</span> of
               experience building fast, accessible, and beautiful web
-              applications. I specialise in{" "}
-              <span className="text-indigo-400 font-medium">React</span>,{" "}
-              <span className="text-indigo-400 font-medium">Next.js</span>, and
-              modern TypeScript ecosystems.
+              applications. I specialise in React and modern TypeScript ecosystems.
             </motion.p>
 
             <motion.p
