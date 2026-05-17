@@ -74,8 +74,7 @@ export default function Contact() {
           variants={fadeUp}
           className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4"
         >
-          Let&apos;s{" "}
-          <span className="gradient-text">work together</span>
+          Let&apos;s work together
         </motion.h2>
 
         <motion.p

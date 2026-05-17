@@ -77,8 +77,7 @@ export default function Experience() {
           variants={fadeUp}
           className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-16"
         >
-          Work{" "}
-          <span className="gradient-text">history</span>
+          Work history
         </motion.h2>
 
         {/* Timeline */}

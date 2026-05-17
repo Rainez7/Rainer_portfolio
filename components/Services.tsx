@@ -99,8 +99,7 @@ export default function Services() {
           transition={{ delay: 0.1, duration: 0.6 }}
           className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-5"
         >
-          What I&apos;m{" "}
-          <span className="gradient-text">doing</span>
+          What I&apos;m doing
         </motion.h2>
 
         <motion.p
