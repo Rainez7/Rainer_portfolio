@@ -38,7 +38,7 @@ export default function Footer() {
                 R
               </div>
               <span className="font-semibold text-white/80 group-hover:text-white transition-colors">
-                Rainer<span className="text-indigo-400">.</span>
+                Rainer
               </span>
             </button>
           </div>
