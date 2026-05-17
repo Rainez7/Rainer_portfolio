@@ -71,7 +71,7 @@ export default function Navigation() {
               R
             </div>
             <span className="font-semibold text-white/90 group-hover:text-white transition-colors">
-              Rainer<span className="text-indigo-400">.</span>
+              Rainer
             </span>
           </motion.button>
 
