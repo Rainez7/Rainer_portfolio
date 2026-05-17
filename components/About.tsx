@@ -62,8 +62,7 @@ export default function About() {
           variants={fadeUp}
           className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-16"
         >
-          A bit about{" "}
-          <span className="gradient-text">me</span>
+          A bit about me
         </motion.h2>
 
         <div className="grid lg:grid-cols-2 gap-16 items-start">
