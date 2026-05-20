@@ -26,7 +26,7 @@ const experiences = [
     tech: ["React", "Javascript", "PHP", "Tailwind CSS", "Node.js"],
   },
   {
-    role: "Junior Front End Web Developer",
+    role: "Junior Front End Developer",
     company: "Civitta company, Tallinn, Estonia",
     url: "#",
     period: "2014 - 2017",
