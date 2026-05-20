@@ -16,7 +16,7 @@ const experiences = [
     tech: ["ServiceNow", "macOS", "Linux", "Cisco AnyConnect", "Windows Server"],
   },
   {
-    role: "Web Developer (Part-time)",
+    role: "Web Developer",
     company: "Fiverr Freelancer",
     url: "#",
     period: "2018 - 2021",
