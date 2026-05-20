@@ -2,13 +2,13 @@
 
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { MapPin, Coffee, Code2, Heart, Zap } from "lucide-react";
+import { MapPin, Coffee, Code2, Heart, BarChart2 } from "lucide-react";
 
 const stats = [
   { value: "6+", label: "Years of Experience" },
   { value: "10+", label: "Cross-border team collaboration" },
   { value: "40+", label: "Product launches delivered" },
-  { value: null, icon: Zap, label: "Focused on SEO and performance" },
+  { value: null, icon: BarChart2, label: "Focused on SEO and performance" },
 ];
 
 const highlights = [
