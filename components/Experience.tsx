@@ -19,7 +19,7 @@ const experiences = [
     role: "Web Developer (Part-time)",
     company: "Fiverr Freelancer",
     url: "#",
-    period: "2018 - 2020",
+    period: "2018 - 2021",
     type: "Full-time",
     description:
       "Built responsive, accessible web apps for clients across fintech and e-commerce. Developed a custom component library that reduced development time by 30%. Collaborated closely with design and backend teams in an agile environment.",
