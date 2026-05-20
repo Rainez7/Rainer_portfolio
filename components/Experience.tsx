@@ -9,7 +9,7 @@ const experiences = [
     role: "IT Support Specialist",
     company: "Whitbread company, London, UK",
     url: "#",
-    period: "2020 - Present",
+    period: "2021 - Present",
     type: "Full-time",
     description:
       "Provided first-line technical support for 30+ end users by resolving hardware, software and network issues while managing ServiceNow tickets. Collaborating with Tier 2 teams and maintaining high customer satisfaction with a 90% first-contact resolution rate.",
