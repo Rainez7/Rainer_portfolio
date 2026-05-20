@@ -104,18 +104,7 @@ export default function Navigation() {
             })}
           </ul>
 
-          {/* CTA */}
-          <div className="hidden md:flex items-center gap-3">
-            <motion.a
-              href="#contact"
-              onClick={(e) => { e.preventDefault(); handleNavClick("#contact"); }}
-              whileHover={{ scale: 1.04 }}
-              whileTap={{ scale: 0.96 }}
-              className="px-5 py-2 rounded-xl text-sm font-medium bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg shadow-indigo-500/25 hover:shadow-indigo-500/40 transition-shadow duration-300"
-            >
-              Hire me
-            </motion.a>
-          </div>
+
 
           {/* Mobile hamburger */}
           <button
@@ -158,19 +147,7 @@ export default function Navigation() {
                   </button>
                 </motion.li>
               ))}
-              <motion.li
-                initial={{ opacity: 0, x: -12 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: navLinks.length * 0.06 }}
-                className="mt-2 pt-2 border-t border-white/[0.06]"
-              >
-                <button
-                  onClick={() => handleNavClick("#contact")}
-                  className="w-full px-4 py-3 rounded-xl text-sm font-medium bg-gradient-to-r from-indigo-500 to-purple-600 text-white"
-                >
-                  Hire me
-                </button>
-              </motion.li>
+
             </ul>
           </motion.nav>
         )}
