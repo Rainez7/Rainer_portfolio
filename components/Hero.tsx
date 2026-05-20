@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import { ArrowDown, Github, Linkedin, Mail, Download } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 
 
 const floatingCode: { top?: string; left?: string; right?: string; delay: number; text: string }[] = [];
@@ -180,17 +180,6 @@ export default function Hero() {
             <span className="relative z-10">View Projects</span>
             <ArrowDown size={16} className="relative z-10 transition-transform duration-300 group-hover:translate-y-0.5" />
             <span aria-hidden="true" className="absolute inset-0 bg-gradient-to-r from-indigo-400 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-          </motion.a>
-
-          <motion.a
-            href="/cv.pdf"
-            download
-            whileHover={{ scale: 1.04 }}
-            whileTap={{ scale: 0.97 }}
-            className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl font-semibold text-sm text-indigo-300 border border-indigo-500/30 hover:border-indigo-500/60 hover:bg-indigo-500/[0.08] hover:text-indigo-200 transition-all duration-300"
-          >
-            <Download size={16} />
-            Download CV
           </motion.a>
         </motion.nav>
 
