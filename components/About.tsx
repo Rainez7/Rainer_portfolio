@@ -88,7 +88,7 @@ export default function About() {
               variants={fadeUp}
               className="text-base text-slate-500 leading-relaxed"
             >
-              Currently working full-time while taking on select freelance
+              Currently working part-time while taking on select freelance
               projects. I care deeply about performance, design systems, and the
               craft of turning complex problems into elegant, intuitive
               interfaces.
