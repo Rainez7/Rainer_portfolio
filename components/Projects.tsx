@@ -92,7 +92,7 @@ const projects = [
   {
     title: "Guzema",
     description:
-      "Built a fully responsive admin dashboard with real-time data visualisation, user management, role-based access control, and analytics charts. Focused on clean UI architecture, reusable component design, and performance optimisation for large datasets.",
+      "The site is a highly visual, product-focused e-commerce interface built on a decoupled commerce architecture, where the frontend is separated from the backend commerce engine (likely Shopify). The frontend behaves like a React-based single-page application with server-side rendering for SEO, optimised for fast product browsing and image-heavy storytelling.",
     image: "/Guzema.png",
     color: "from-rose-500/20 to-orange-600/20",
     accent: "#f43f5e",
