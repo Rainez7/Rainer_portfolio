@@ -246,11 +246,12 @@ export default function Projects() {
                         href={project.live}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="w-9 h-9 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 flex items-center justify-center text-white transition-colors"
+                        className="w-12 h-12 sm:w-9 sm:h-9 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 flex items-center justify-center text-white transition-colors"
                         aria-label="Live demo"
                         onClick={(e) => e.stopPropagation()}
                       >
-                        <ExternalLink size={15} />
+                        <ExternalLink size={18} className="sm:hidden" />
+                        <ExternalLink size={15} className="hidden sm:block" />
                       </a>
                     )}
                   </motion.div>
