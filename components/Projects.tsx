@@ -76,7 +76,7 @@ const projects = [
     featured: false,
   },
   {
-    title: "ChatFlow",
+    title: "pasta",
     description:
       "Developed a real-time chat and messaging application with instant message delivery, user authentication, online presence indicators, and chat room support. Built with a focus on low-latency communication, clean UI, and scalable architecture.",
     image: "/chatflow.png",
