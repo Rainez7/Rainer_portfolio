@@ -112,7 +112,7 @@ const projects = [
     accent: "#6366f1",
     tech: ["HTML5", "CSS3", "TypeScript", "React.js", "Next.js", "Tailwind CSS", "Framer Motion", "Vercel"],
     github: "#",
-    live: "#",
+    live: "https://www.taryangroup.com/",
     stars: 58,
     forks: 11,
     featured: false,
