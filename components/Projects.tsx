@@ -106,7 +106,7 @@ const projects = [
   {
     title: "Taryan",
     description:
-      "Designed and developed a modern personal portfolio website with smooth animations, responsive layout, and optimised performance. Built with Next.js and Tailwind CSS, featuring dark theme, interactive UI components, and seamless section transitions to showcase projects and experience.",
+      "The project is built on a monolithic CMS architecture (1C-Bitrix) where the frontend is tightly coupled with server-side PHP templates. Pages are rendered on the server and delivered as fully formed HTML, with JavaScript used mainly for progressive enhancement.",
     image: "/Tarjan.png",
     color: "from-indigo-500/20 to-sky-600/20",
     accent: "#6366f1",
