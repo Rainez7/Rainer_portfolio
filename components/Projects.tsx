@@ -234,12 +234,13 @@ export default function Projects() {
                   {/* Shine effect */}
                   <div className="absolute inset-0 bg-gradient-to-br from-white/[0.04] to-transparent" />
 
-                  {/* Hover overlay — desktop */}
+                  {/* Hover overlay */}
                   <motion.div
                     initial={{ opacity: 0 }}
                     whileHover={{ opacity: 1 }}
-                    className="absolute inset-0 bg-black/30 hidden sm:flex items-center justify-center gap-3 backdrop-blur-sm"
+                    className="absolute inset-0 bg-black/30 flex items-center justify-center gap-3 backdrop-blur-sm"
                   >
+
                     {project.live && (
                       <a
                         href={project.live}
@@ -253,22 +254,6 @@ export default function Projects() {
                       </a>
                     )}
                   </motion.div>
-
-                  {/* Always-visible overlay — mobile */}
-                  <div className="absolute inset-0 bg-black/30 flex sm:hidden items-center justify-center gap-3 backdrop-blur-sm">
-                    {project.live && (
-                      <a
-                        href={project.live}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="w-9 h-9 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center text-white"
-                        aria-label="Live demo"
-                        onClick={(e) => e.stopPropagation()}
-                      >
-                        <ExternalLink size={15} />
-                      </a>
-                    )}
-                  </div>
                 </div>
 
                 {/* Card body */}
