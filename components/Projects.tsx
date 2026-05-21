@@ -78,7 +78,7 @@ const projects = [
   {
     title: "Bazhane",
     description:
-      "Developed a real-time chat and messaging application with instant message delivery, user authentication, online presence indicators, and chat room support. Built with a focus on low-latency communication, clean UI, and scalable architecture.",
+      "A modern, component-based luxury e-commerce frontend built on a React/Next.js-style framework, likely powered by a headless Shopify backend, optimised for performance, visual storytelling, and conversion.",
     image: "/Bazhane.png",
     color: "from-teal-500/20 to-green-600/20",
     accent: "#14b8a6",
