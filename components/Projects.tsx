@@ -76,6 +76,20 @@ const projects = [
     featured: false,
   },
   {
+    title: "Admin Dashboard",
+    description:
+      "Built a fully responsive admin dashboard with real-time data visualisation, user management, role-based access control, and analytics charts. Focused on clean UI architecture, reusable component design, and performance optimisation for large datasets.",
+    image: "/dashboard.png",
+    color: "from-rose-500/20 to-orange-600/20",
+    accent: "#f43f5e",
+    tech: ["TypeScript", "React.js", "Next.js", "Tailwind CSS", "Chart.js", "REST API", "Vercel"],
+    github: "#",
+    live: "#",
+    stars: 74,
+    forks: 13,
+    featured: false,
+  },
+  {
     title: "Personal Portfolio",
     description:
       "Designed and developed a modern personal portfolio website with smooth animations, responsive layout, and optimised performance. Built with Next.js and Tailwind CSS, featuring dark theme, interactive UI components, and seamless section transitions to showcase projects and experience.",
