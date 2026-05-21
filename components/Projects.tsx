@@ -79,7 +79,7 @@ const projects = [
     title: "ChatFlow",
     description:
       "Developed a real-time chat and messaging application with instant message delivery, user authentication, online presence indicators, and chat room support. Built with a focus on low-latency communication, clean UI, and scalable architecture.",
-    image: "/Bazhane.png",
+    image: "/chatflow.png",
     color: "from-teal-500/20 to-green-600/20",
     accent: "#14b8a6",
     tech: ["TypeScript", "React.js", "Next.js", "Tailwind CSS", "Socket.io", "Node.js", "MongoDB"],
