@@ -84,7 +84,7 @@ const projects = [
     accent: "#14b8a6",
     tech: ["TypeScript", "React.js", "Next.js", "Tailwind CSS", "Socket.io", "Node.js", "MongoDB"],
     github: "#",
-    live: "#",
+    live: "https://bazhane.com.ua/en/",
     stars: 91,
     forks: 17,
     featured: false,
