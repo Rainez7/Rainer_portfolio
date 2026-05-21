@@ -76,6 +76,20 @@ const projects = [
     featured: false,
   },
   {
+    title: "ChatFlow",
+    description:
+      "Developed a real-time chat and messaging application with instant message delivery, user authentication, online presence indicators, and chat room support. Built with a focus on low-latency communication, clean UI, and scalable architecture.",
+    image: "/chatflow.png",
+    color: "from-teal-500/20 to-green-600/20",
+    accent: "#14b8a6",
+    tech: ["TypeScript", "React.js", "Next.js", "Tailwind CSS", "Socket.io", "Node.js", "MongoDB"],
+    github: "#",
+    live: "#",
+    stars: 91,
+    forks: 17,
+    featured: false,
+  },
+  {
     title: "Admin Dashboard",
     description:
       "Built a fully responsive admin dashboard with real-time data visualisation, user management, role-based access control, and analytics charts. Focused on clean UI architecture, reusable component design, and performance optimisation for large datasets.",
