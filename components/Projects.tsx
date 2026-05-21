@@ -238,7 +238,8 @@ export default function Projects() {
                   <motion.div
                     initial={{ opacity: 0 }}
                     whileHover={{ opacity: 1 }}
-                    className="absolute inset-0 bg-black/30 flex items-center justify-center gap-3 backdrop-blur-sm"
+                    whileTap={{ opacity: 1 }}
+                    className="absolute inset-0 bg-black/30 flex items-center justify-center gap-3 backdrop-blur-sm focus-within:opacity-100"
                   >
 
                     {project.live && (
