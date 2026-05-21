@@ -98,7 +98,7 @@ const projects = [
     accent: "#f43f5e",
     tech: ["TypeScript", "React.js", "Next.js", "Tailwind CSS", "Chart.js", "REST API", "Vercel"],
     github: "#",
-    live: "#",
+    live: "https://guzema.com/",
     stars: 74,
     forks: 13,
     featured: false,
