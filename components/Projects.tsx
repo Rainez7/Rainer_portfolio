@@ -93,7 +93,7 @@ const projects = [
     title: "Guzema",
     description:
       "Built a fully responsive admin dashboard with real-time data visualisation, user management, role-based access control, and analytics charts. Focused on clean UI architecture, reusable component design, and performance optimisation for large datasets.",
-    image: "/dashboard.png",
+    image: "/Guzema.png",
     color: "from-rose-500/20 to-orange-600/20",
     accent: "#f43f5e",
     tech: ["TypeScript", "React.js", "Next.js", "Tailwind CSS", "Chart.js", "REST API", "Vercel"],
