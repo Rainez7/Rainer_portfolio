@@ -107,7 +107,7 @@ const projects = [
     title: "Personal Portfolio",
     description:
       "Designed and developed a modern personal portfolio website with smooth animations, responsive layout, and optimised performance. Built with Next.js and Tailwind CSS, featuring dark theme, interactive UI components, and seamless section transitions to showcase projects and experience.",
-    image: "/rrndssd.png",
+    image: "/Tarjan.png",
     color: "from-indigo-500/20 to-sky-600/20",
     accent: "#6366f1",
     tech: ["HTML5", "CSS3", "TypeScript", "React.js", "Next.js", "Tailwind CSS", "Framer Motion", "Vercel"],
