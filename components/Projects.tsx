@@ -76,6 +76,20 @@ const projects = [
     featured: false,
   },
   {
+    title: "Personal Portfolio",
+    description:
+      "Designed and developed a modern personal portfolio website with smooth animations, responsive layout, and optimised performance. Built with Next.js and Tailwind CSS, featuring dark theme, interactive UI components, and seamless section transitions to showcase projects and experience.",
+    image: "/portfolio.png",
+    color: "from-indigo-500/20 to-sky-600/20",
+    accent: "#6366f1",
+    tech: ["HTML5", "CSS3", "TypeScript", "React.js", "Next.js", "Tailwind CSS", "Framer Motion", "Vercel"],
+    github: "#",
+    live: "#",
+    stars: 58,
+    forks: 11,
+    featured: false,
+  },
+  {
     title: "Forecast",
     description:
       "Real-time weather application with dark mode support, accurate live forecasts, and responsive user interface design. Built with modern frontend technologies to provide current weather conditions, hourly updates, location-based forecasting, temperature tracking, humidity, wind speed, and dynamic weather visuals.",
