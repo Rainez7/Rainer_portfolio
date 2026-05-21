@@ -6,17 +6,17 @@ import { ExternalLink, Star, GitFork } from "lucide-react";
 
 const projects = [
   {
-    title: "Luxuryforyou",
+    title: "Bazhane",
     description:
-      "Built and maintained frontend features for a luxury fashion e-commerce website using modern web technologies, focusing on responsive design, performance optimisation, reusable UI components, accessibility, and seamless user experience across desktop and mobile devices.",
-    image: "/luxuryforyou.png",
-    color: "from-indigo-500/20 to-purple-600/20",
-    accent: "#6366f1",
-    tech: ["HTML5", "CSS3", "JavaScript", "React", "Tailwind CSS", "Magento", "PHP"],
+      "A modern, component-based luxury e-commerce frontend built on a React/Next.js-style framework, likely powered by a headless Shopify backend, optimised for performance, visual storytelling, and conversion.",
+    image: "/Bazhane.png",
+    color: "from-teal-500/20 to-green-600/20",
+    accent: "#14b8a6",
+    tech: ["React", "Next.js", "HTML5 / CSS3", "jQuery", "PHP", "Node.js", "NestJS", "MySQL", "PostgreSQL"],
     github: "#",
-    live: "https://luxuryforyou.com/gb_en",
-    stars: 248,
-    forks: 34,
+    live: "https://bazhane.com.ua/en/",
+    stars: 91,
+    forks: 17,
     featured: true,
   },
   {
@@ -76,17 +76,17 @@ const projects = [
     featured: false,
   },
   {
-    title: "Bazhane",
+    title: "Luxuryforyou",
     description:
-      "A modern, component-based luxury e-commerce frontend built on a React/Next.js-style framework, likely powered by a headless Shopify backend, optimised for performance, visual storytelling, and conversion.",
-    image: "/Bazhane.png",
-    color: "from-teal-500/20 to-green-600/20",
-    accent: "#14b8a6",
-    tech: ["React", "Next.js", "HTML5 / CSS3", "jQuery", "PHP", "Node.js", "NestJS", "MySQL", "PostgreSQL"],
+      "Built and maintained frontend features for a luxury fashion e-commerce website using modern web technologies, focusing on responsive design, performance optimisation, reusable UI components, accessibility, and seamless user experience across desktop and mobile devices.",
+    image: "/luxuryforyou.png",
+    color: "from-indigo-500/20 to-purple-600/20",
+    accent: "#6366f1",
+    tech: ["HTML5", "CSS3", "JavaScript", "React", "Tailwind CSS", "Magento", "PHP"],
     github: "#",
-    live: "https://bazhane.com.ua/en/",
-    stars: 91,
-    forks: 17,
+    live: "https://luxuryforyou.com/gb_en",
+    stars: 248,
+    forks: 34,
     featured: false,
   },
   {
