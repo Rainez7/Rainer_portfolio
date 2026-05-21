@@ -82,7 +82,7 @@ const projects = [
     image: "/Bazhane.png",
     color: "from-teal-500/20 to-green-600/20",
     accent: "#14b8a6",
-    tech: ["React", "Next.js", "HTML5 / CSS3", "jQuery"],
+    tech: ["React", "Next.js", "HTML5 / CSS3", "jQuery", "PHP", "Node.js", "NestJS"],
     github: "#",
     live: "https://bazhane.com.ua/en/",
     stars: 91,
