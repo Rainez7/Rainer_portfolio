@@ -96,7 +96,7 @@ const projects = [
     image: "/Guzema.png",
     color: "from-rose-500/20 to-orange-600/20",
     accent: "#f43f5e",
-    tech: ["TypeScript", "React.js", "Next.js", "Tailwind CSS", "Chart.js", "REST API", "Vercel"],
+    tech: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Shopify"],
     github: "#",
     live: "https://guzema.com/",
     stars: 74,
