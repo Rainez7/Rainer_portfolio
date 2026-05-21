@@ -90,7 +90,7 @@ const projects = [
     featured: false,
   },
   {
-    title: "Admin Dashboard",
+    title: "Guzema",
     description:
       "Built a fully responsive admin dashboard with real-time data visualisation, user management, role-based access control, and analytics charts. Focused on clean UI architecture, reusable component design, and performance optimisation for large datasets.",
     image: "/dashboard.png",
