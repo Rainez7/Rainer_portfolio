@@ -104,7 +104,7 @@ const projects = [
     featured: false,
   },
   {
-    title: "Personal Portfolio",
+    title: "Taryan",
     description:
       "Designed and developed a modern personal portfolio website with smooth animations, responsive layout, and optimised performance. Built with Next.js and Tailwind CSS, featuring dark theme, interactive UI components, and seamless section transitions to showcase projects and experience.",
     image: "/Tarjan.png",
