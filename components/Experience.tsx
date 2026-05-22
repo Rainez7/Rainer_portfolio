@@ -10,7 +10,7 @@ const experiences = [
     company: "Whitbread company, London, UK",
     url: "#",
     period: "2021 - Present",
-    type: "Part-time",
+    type: "",
     description:
       "Provided first-line technical support for 30+ end users by resolving hardware, software and network issues while managing ServiceNow tickets. Collaborating with Tier 2 teams and maintaining high customer satisfaction with a 90% first-contact resolution rate.",
     tech: ["ServiceNow", "macOS", "Linux", "Cisco AnyConnect", "Windows Server"],
@@ -118,7 +118,7 @@ export default function Experience() {
                     </div>
                     <div className="flex flex-col sm:items-end gap-1.5 shrink-0">
                       <time className="font-mono text-xs text-slate-500">{exp.period}</time>
-                      <span className="tag self-start sm:self-auto">{exp.type}</span>
+                      {exp.type && <span className="tag self-start sm:self-auto">{exp.type}</span>}
                     </div>
                   </div>
 
