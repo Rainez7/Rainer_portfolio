@@ -287,6 +287,17 @@ export default function Projects() {
                   </ul>
                 </div>
 
+                {/* Mobile full-card link */}
+                {project.live && (
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="absolute inset-0 z-10 md:hidden"
+                    aria-label={`Open ${project.title}`}
+                  />
+                )}
+
                 {/* Hover glow overlay */}
                 <div
                   aria-hidden="true"
