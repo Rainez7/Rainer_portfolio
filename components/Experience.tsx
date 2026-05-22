@@ -10,7 +10,7 @@ const experiences = [
     company: "Whitbread company, London, UK",
     url: "#",
     period: "2021 - Present",
-    type: "Full-time",
+    type: "Part-time",
     description:
       "Provided first-line technical support for 30+ end users by resolving hardware, software and network issues while managing ServiceNow tickets. Collaborating with Tier 2 teams and maintaining high customer satisfaction with a 90% first-contact resolution rate.",
     tech: ["ServiceNow", "macOS", "Linux", "Cisco AnyConnect", "Windows Server"],
