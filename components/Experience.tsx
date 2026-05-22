@@ -30,7 +30,7 @@ const experiences = [
     company: "Civitta company, Tallinn, Estonia",
     url: "#",
     period: "2014 - 2017",
-    type: "Contract",
+    type: "",
     description:
       "Delivered 15+ websites and web applications for local and international clients. Gained strong foundations in modern HTML/CSS, JavaScript, and performance optimization. Also built mobile-first, SEO-optimized marketing sites.",
     tech: ["JavaScript", "React", "SCSS", "WordPress", "PHP"],
