@@ -12,6 +12,7 @@ const projects = [
     image: "/Bazhane.png",
     color: "from-teal-500/20 to-green-600/20",
     accent: "#14b8a6",
+    glow: "rgba(20,184,166,0.15)",
     tech: ["React", "Next.js", "HTML5 / CSS3", "jQuery", "PHP", "Node.js", "NestJS", "MySQL", "PostgreSQL"],
     github: "#",
     live: "https://bazhane.com.ua/en/",
@@ -26,6 +27,7 @@ const projects = [
     image: "/Guzema.png",
     color: "from-rose-500/20 to-orange-600/20",
     accent: "#f43f5e",
+    glow: "rgba(244,63,94,0.15)",
     tech: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Shopify"],
     github: "#",
     live: "https://guzema.com/",
@@ -40,6 +42,7 @@ const projects = [
     image: "/Tarjan.png",
     color: "from-indigo-500/20 to-sky-600/20",
     accent: "#6366f1",
+    glow: "rgba(99,102,241,0.15)",
     tech: ["JavaScript", "jQuery", "HTML5/CSS3", "Bootstrap", "Swiper", "PHP", "MySQL"],
     github: "#",
     live: "https://www.taryangroup.com/",
@@ -54,6 +57,7 @@ const projects = [
     image: "/silverskincoffe.png",
     color: "from-orange-500/20 to-rose-600/20",
     accent: "#f97316",
+    glow: "rgba(249,115,22,0.15)",
     tech: ["JavaScript", "jQuery", "PHP", "MySQL", "WordPress", "WooCommerce", "Bootstrap", "Cloudflare", "Google Analytics"],
     github: "#",
     live: "https://silverskincoffee.ie/",
@@ -68,6 +72,7 @@ const projects = [
     image: "/Formify.png",
     color: "from-purple-500/20 to-pink-600/20",
     accent: "#a855f7",
+    glow: "rgba(168,85,247,0.15)",
     tech: ["HTML5", "CSS3", "JavaScript", "React", "WordPress", "PHP", "jQuery", "MySQL"],
     github: "#",
     live: "https://verholy.com/en/",
@@ -82,6 +87,7 @@ const projects = [
     image: "/luxuryforyou.png",
     color: "from-indigo-500/20 to-purple-600/20",
     accent: "#6366f1",
+    glow: "rgba(99,102,241,0.15)",
     tech: ["HTML5", "CSS3", "JavaScript", "React", "Tailwind CSS", "Magento", "PHP"],
     github: "#",
     live: "https://luxuryforyou.com/gb_en",
@@ -96,6 +102,7 @@ const projects = [
     image: "/trackmate.png",
     color: "from-emerald-500/20 to-teal-600/20",
     accent: "#10b981",
+    glow: "rgba(16,185,129,0.15)",
     tech: ["HTML5", "JavaScript", "Typescript", "React.js", "Node.js", "Tailwind CSS"],
     github: "#",
     live: "https://www.trackmate.page/",
@@ -110,6 +117,7 @@ const projects = [
     image: "/puzzleslide.png",
     color: "from-cyan-500/20 to-blue-600/20",
     accent: "#06b6d4",
+    glow: "rgba(6,182,212,0.15)",
     tech: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React.js", "Next.js", "Tailwind CSS", "Vercel"],
     github: "#",
     live: "https://puzzleslide.vercel.app/",
@@ -124,6 +132,7 @@ const projects = [
     image: "/forecast.png",
     color: "from-violet-500/20 to-fuchsia-600/20",
     accent: "#8b5cf6",
+    glow: "rgba(139,92,246,0.15)",
     tech: ["React.js", "Tailwind CSS", "Context API", "OpenWeather API"],
     github: "#",
     live: "https://main--sky-update.netlify.app/",
@@ -195,7 +204,12 @@ export default function Projects() {
                 variants={item}
                 layout
                 exit={{ opacity: 0, scale: 0.94 }}
-                className="group glass rounded-2xl overflow-hidden hover:border-white/[0.12] transition-all duration-300 hover:shadow-[0_0_40px_rgba(0,0,0,0.4)] flex flex-col"
+                className="group relative glass rounded-2xl overflow-hidden hover:border-white/[0.12] transition-all duration-300 flex flex-col"
+                whileHover={{
+                  y: -4,
+                  boxShadow: `0 20px 60px ${project.glow}`,
+                  transition: { duration: 0.25 },
+                }}
               >
                 {/* Card header / visual */}
                 <div
@@ -272,6 +286,12 @@ export default function Projects() {
                     ))}
                   </ul>
                 </div>
+
+                {/* Hover glow overlay */}
+                <div
+                  aria-hidden="true"
+                  className={`absolute inset-0 bg-gradient-to-b ${project.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none rounded-2xl`}
+                />
               </motion.article>
             ))}
           </AnimatePresence>
