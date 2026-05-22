@@ -118,20 +118,6 @@ const projects = [
     featured: false,
   },
   {
-    title: "test",
-    description:
-      "Description coming soon.",
-    image: "/test.png",
-    color: "from-sky-500/20 to-cyan-600/20",
-    accent: "#0ea5e9",
-    tech: [],
-    github: "#",
-    live: "#",
-    stars: 0,
-    forks: 0,
-    featured: false,
-  },
-  {
     title: "Forecast",
     description:
       "Real-time weather application with dark mode support, accurate live forecasts, and responsive user interface design. Built with modern frontend technologies to provide current weather conditions, hourly updates, location-based forecasting, temperature tracking, humidity, wind speed, and dynamic weather visuals.",
