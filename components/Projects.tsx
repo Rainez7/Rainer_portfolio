@@ -66,7 +66,7 @@ const projects = [
     featured: false,
   },
   {
-    title: "Silverskincoffe",
+    title: "Silverskin",
     description:
       "Developed and maintained an e-commerce coffee brand platform. Implemented responsive UI components, online store functionality, SEO optimisation, analytics integration, and performance enhancements to deliver a scalable and user-friendly shopping experience across devices.",
     image: "/silverskincoffe.png",
@@ -81,7 +81,7 @@ const projects = [
     featured: false,
   },
   {
-    title: "Luxuryforyou",
+    title: "Luxury for you",
     description:
       "Built and maintained frontend features for a luxury fashion e-commerce website using modern web technologies, focusing on responsive design, performance optimisation, reusable UI components, accessibility, and seamless user experience across desktop and mobile devices.",
     image: "/luxuryforyou.png",
