@@ -51,21 +51,6 @@ const projects = [
     featured: true,
   },
   {
-    title: "Silverskincoffe",
-    description:
-      "Developed and maintained an e-commerce coffee brand platform. Implemented responsive UI components, online store functionality, SEO optimisation, analytics integration, and performance enhancements to deliver a scalable and user-friendly shopping experience across devices.",
-    image: "/silverskincoffe.png",
-    color: "from-orange-500/20 to-rose-600/20",
-    accent: "#f97316",
-    glow: "rgba(249,115,22,0.15)",
-    tech: ["JavaScript", "jQuery", "PHP", "MySQL", "WordPress", "WooCommerce", "Bootstrap", "Cloudflare", "Google Analytics"],
-    github: "#",
-    live: "https://silverskincoffee.ie/",
-    stars: 97,
-    forks: 15,
-    featured: false,
-  },
-  {
     title: "Verholy",
     description:
       "The website combines high-performance frontend development, mobile-friendly architecture, secure booking systems, API integrations, and optimised user journeys to create a premium online presence for a luxury resort and spa destination.",
@@ -78,6 +63,21 @@ const projects = [
     live: "https://verholy.com/en/",
     stars: 512,
     forks: 71,
+    featured: false,
+  },
+  {
+    title: "Silverskincoffe",
+    description:
+      "Developed and maintained an e-commerce coffee brand platform. Implemented responsive UI components, online store functionality, SEO optimisation, analytics integration, and performance enhancements to deliver a scalable and user-friendly shopping experience across devices.",
+    image: "/silverskincoffe.png",
+    color: "from-orange-500/20 to-rose-600/20",
+    accent: "#f97316",
+    glow: "rgba(249,115,22,0.15)",
+    tech: ["JavaScript", "jQuery", "PHP", "MySQL", "WordPress", "WooCommerce", "Bootstrap", "Cloudflare", "Google Analytics"],
+    github: "#",
+    live: "https://silverskincoffee.ie/",
+    stars: 97,
+    forks: 15,
     featured: false,
   },
   {
