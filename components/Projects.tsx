@@ -36,21 +36,6 @@ const projects = [
     featured: true,
   },
   {
-    title: "Taryan",
-    description:
-      "The project is built on a monolithic CMS architecture (1C-Bitrix) where the frontend is tightly coupled with server-side PHP templates. Pages are rendered on the server and delivered as fully formed HTML, with JavaScript used mainly for progressive enhancement.",
-    image: "/Tarjan.png",
-    color: "from-indigo-500/20 to-sky-600/20",
-    accent: "#6366f1",
-    glow: "rgba(99,102,241,0.15)",
-    tech: ["JavaScript", "jQuery", "HTML5/CSS3", "Bootstrap", "Swiper", "PHP", "MySQL"],
-    github: "#",
-    live: "https://www.taryangroup.com/",
-    stars: 58,
-    forks: 11,
-    featured: true,
-  },
-  {
     title: "Verholy",
     description:
       "The website combines high-performance frontend development, mobile-friendly architecture, secure booking systems, API integrations, and optimised user journeys to create a premium online presence for a luxury resort and spa destination.",
@@ -63,6 +48,21 @@ const projects = [
     live: "https://verholy.com/en/",
     stars: 512,
     forks: 71,
+    featured: true,
+  },
+  {
+    title: "Taryan",
+    description:
+      "The project is built on a monolithic CMS architecture (1C-Bitrix) where the frontend is tightly coupled with server-side PHP templates. Pages are rendered on the server and delivered as fully formed HTML, with JavaScript used mainly for progressive enhancement.",
+    image: "/Tarjan.png",
+    color: "from-indigo-500/20 to-sky-600/20",
+    accent: "#6366f1",
+    glow: "rgba(99,102,241,0.15)",
+    tech: ["JavaScript", "jQuery", "HTML5/CSS3", "Bootstrap", "Swiper", "PHP", "MySQL"],
+    github: "#",
+    live: "https://www.taryangroup.com/",
+    stars: 58,
+    forks: 11,
     featured: false,
   },
   {
