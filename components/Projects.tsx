@@ -36,6 +36,21 @@ const projects = [
     featured: true,
   },
   {
+    title: "Guzema 2",
+    description:
+      "The site is a highly visual, product-focused e-commerce interface built on a decoupled commerce architecture, where the frontend is separated from the backend commerce engine (likely Shopify). The frontend behaves like a React-based single-page application with server-side rendering for SEO, optimised for fast product browsing and image-heavy storytelling.",
+    image: "/Guzema.png",
+    color: "from-rose-500/20 to-orange-600/20",
+    accent: "#f43f5e",
+    glow: "rgba(244,63,94,0.15)",
+    tech: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Shopify"],
+    github: "#",
+    live: "https://guzema.com/",
+    stars: 74,
+    forks: 13,
+    featured: true,
+  },
+  {
     title: "Verholy",
     description:
       "The website combines high-performance frontend development, mobile-friendly architecture, secure booking systems, API integrations, and optimised user journeys to create a premium online presence for a luxury resort and spa destination.",
