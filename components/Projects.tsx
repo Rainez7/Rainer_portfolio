@@ -36,10 +36,10 @@ const projects = [
     featured: true,
   },
   {
-    title: "Guzema 2",
+    title: "Kings rental car",
     description:
       "The site is a highly visual, product-focused e-commerce interface built on a decoupled commerce architecture, where the frontend is separated from the backend commerce engine (likely Shopify). The frontend behaves like a React-based single-page application with server-side rendering for SEO, optimised for fast product browsing and image-heavy storytelling.",
-    image: "/Guzema.png",
+    image: "/kingsrentalcars.png",
     color: "from-rose-500/20 to-orange-600/20",
     accent: "#f43f5e",
     glow: "rgba(244,63,94,0.15)",
