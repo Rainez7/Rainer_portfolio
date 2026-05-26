@@ -156,6 +156,21 @@ const projects = [
     featured: false,
   },
   {
+    title: "Puzzleslide",
+    description:
+      "Developed an interactive puzzle game web application. Implemented responsive UI components, dynamic game logic, optimised state management, and cloud deployment on Vercel to deliver a fast and engaging user experience.",
+    image: "/puzzleslide.png",
+    color: "from-cyan-500/20 to-blue-600/20",
+    accent: "#06b6d4",
+    glow: "rgba(6,182,212,0.15)",
+    tech: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React.js", "Next.js", "Tailwind CSS", "Vercel"],
+    github: "#",
+    live: "https://puzzleslide.vercel.app/",
+    stars: 143,
+    forks: 19,
+    featured: false,
+  },
+  {
     title: "Forecast",
     description:
       "Real-time weather application with dark mode support, accurate live forecasts, and responsive user interface design. Built with modern frontend technologies to provide current weather conditions, hourly updates, location-based forecasting, temperature tracking, humidity, wind speed, and dynamic weather visuals.",
