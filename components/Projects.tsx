@@ -43,7 +43,7 @@ const projects = [
     color: "from-rose-500/20 to-orange-600/20",
     accent: "#f43f5e",
     glow: "rgba(244,63,94,0.15)",
-    tech: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Shopify"],
+    tech: ["HTML5 / CSS3", "jQuery", "JavaScript", "React", "PHP", "MySQL", "Next.js"],
     github: "#",
     live: "https://guzema.com/",
     stars: 74,
