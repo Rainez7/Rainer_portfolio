@@ -126,6 +126,21 @@ const projects = [
     featured: false,
   },
   {
+    title: "TrackMate",
+    description:
+      "I built TrackMate, a GPS journey tracking platform with responsive UI, real-time tracking, interactive maps, and performance analytics. I focused on creating a fast, user-friendly experience across web and mobile devices.",
+    image: "/trackmate.png",
+    color: "from-emerald-500/20 to-teal-600/20",
+    accent: "#10b981",
+    glow: "rgba(16,185,129,0.15)",
+    tech: ["HTML5", "JavaScript", "Typescript", "React.js", "Node.js", "Tailwind CSS"],
+    github: "#",
+    live: "https://www.trackmate.page/",
+    stars: 189,
+    forks: 22,
+    featured: false,
+  },
+  {
     title: "Puzzleslide",
     description:
       "Developed an interactive puzzle game web application. Implemented responsive UI components, dynamic game logic, optimised state management, and cloud deployment on Vercel to deliver a fast and engaging user experience.",
