@@ -128,7 +128,7 @@ const projects = [
   {
     title: "TrackMate",
     description:
-      "I built TrackMate, a GPS journey tracking platform with responsive UI, real-time tracking, interactive maps, and performance analytics. I focused on creating a fast, user-friendly experience across web and mobile devices.",
+      "Modern wellness and yoga subscription website built as a conversion-focused landing experience for a personal brand. The site promotes online yoga, breathwork, meditation, and movement coaching through a membership product.",
     image: "/trackmate.png",
     color: "from-emerald-500/20 to-teal-600/20",
     accent: "#10b981",
