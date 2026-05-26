@@ -163,7 +163,7 @@ const projects = [
     color: "from-cyan-500/20 to-blue-600/20",
     accent: "#06b6d4",
     glow: "rgba(6,182,212,0.15)",
-    tech: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React.js", "Next.js", "Tailwind CSS", "Vercel"],
+    tech: ["HTML5 / CSS3", "React", "Next.js", "Tailwind CSS", "REST API"],
     github: "#",
     live: "https://puzzleslide.vercel.app/",
     stars: 143,
