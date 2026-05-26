@@ -156,10 +156,10 @@ const projects = [
     featured: false,
   },
   {
-    title: "Puzzleslide",
+    title: "Raisky",
     description:
       "Developed an interactive puzzle game web application. Implemented responsive UI components, dynamic game logic, optimised state management, and cloud deployment on Vercel to deliver a fast and engaging user experience.",
-    image: "/puzzleslide.png",
+    image: "/raisky.png",
     color: "from-cyan-500/20 to-blue-600/20",
     accent: "#06b6d4",
     glow: "rgba(6,182,212,0.15)",
