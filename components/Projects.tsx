@@ -135,7 +135,7 @@ const projects = [
     glow: "rgba(16,185,129,0.15)",
     tech: ["HTML5", "JavaScript", "Typescript", "React.js", "Node.js", "Tailwind CSS"],
     github: "#",
-    live: "https://www.trackmate.page/",
+    live: "https://namastarryn.com/",
     stars: 189,
     forks: 22,
     featured: false,
