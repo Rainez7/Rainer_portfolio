@@ -165,7 +165,7 @@ const projects = [
     glow: "rgba(6,182,212,0.15)",
     tech: ["HTML5 / CSS3", "React", "Next.js", "Tailwind CSS", "REST API"],
     github: "#",
-    live: "https://puzzleslide.vercel.app/",
+    live: "https://raisky.travel/en/",
     stars: 143,
     forks: 19,
     featured: false,
