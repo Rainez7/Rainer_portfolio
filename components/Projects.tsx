@@ -158,7 +158,7 @@ const projects = [
   {
     title: "Raisky",
     description:
-      "Developed an interactive puzzle game web application. Implemented responsive UI components, dynamic game logic, optimised state management, and cloud deployment on Vercel to deliver a fast and engaging user experience.",
+      "Luxury travel concierge platform, building responsive and user-friendly interfaces for bespoke travel services. Developed UI components for service pages, enquiry forms, and travel packages, ensuring smooth navigation and high-quality user experience.",
     image: "/raisky.png",
     color: "from-cyan-500/20 to-blue-600/20",
     accent: "#06b6d4",
