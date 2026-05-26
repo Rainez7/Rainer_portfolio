@@ -38,7 +38,7 @@ const projects = [
   {
     title: "Kings rental car",
     description:
-      "The site is a highly visual, product-focused e-commerce interface built on a decoupled commerce architecture, where the frontend is separated from the backend commerce engine (likely Shopify). The frontend behaves like a React-based single-page application with server-side rendering for SEO, optimised for fast product browsing and image-heavy storytelling.",
+      "Built and maintained a responsive car rental booking website with features for vehicle search, filtering, and reservations. Developed dynamic UI components, integrated APIs for real-time availability and pricing, and ensured mobile responsiveness and cross-browser compatibility. Focused on performance optimization and improving overall user experience.",
     image: "/kingsrentalcars.png",
     color: "from-rose-500/20 to-orange-600/20",
     accent: "#f43f5e",
