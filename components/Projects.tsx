@@ -45,7 +45,7 @@ const projects = [
     glow: "rgba(244,63,94,0.15)",
     tech: ["HTML5 / CSS3", "jQuery", "JavaScript", "React", "PHP", "MySQL", "Next.js"],
     github: "#",
-    live: "https://guzema.com/",
+    live: "https://kingsrentalcars.com/en",
     stars: 74,
     forks: 13,
     featured: true,
