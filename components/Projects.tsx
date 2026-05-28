@@ -118,7 +118,7 @@ const projects = [
     color: "from-emerald-500/20 to-teal-600/20",
     accent: "#10b981",
     glow: "rgba(16,185,129,0.15)",
-    tech: ["HTML5", "JavaScript", "Typescript", "React.js", "Node.js", "Tailwind CSS"],
+    tech: ["Shopify", "Shopify Liquid", "JavaScript", "LazySizes", "CDN", "Shopify Checkout"],
     github: "#",
     live: "https://www.shjewellery.com.au/",
     stars: 189,
