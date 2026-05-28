@@ -185,6 +185,21 @@ const projects = [
     forks: 48,
     featured: false,
   },
+  {
+    title: "Forecast",
+    description:
+      "Real-time weather application with dark mode support, accurate live forecasts, and responsive user interface design. Built with modern frontend technologies to provide current weather conditions, hourly updates, location-based forecasting, temperature tracking, humidity, wind speed, and dynamic weather visuals.",
+    image: "/forecast.png",
+    color: "from-violet-500/20 to-fuchsia-600/20",
+    accent: "#8b5cf6",
+    glow: "rgba(139,92,246,0.15)",
+    tech: ["React.js", "Tailwind CSS", "Context API", "OpenWeather API"],
+    github: "#",
+    live: "https://main--sky-update.netlify.app/",
+    stars: 376,
+    forks: 48,
+    featured: false,
+  },
 ];
 
 const container = {
