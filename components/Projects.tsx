@@ -113,7 +113,7 @@ const projects = [
   {
     title: "SH",
     description:
-      "I built TrackMate, a GPS journey tracking platform with responsive UI, real-time tracking, interactive maps, and performance analytics. I focused on creating a fast, user-friendly experience across web and mobile devices.",
+      "The website is a fairly standard Shopify Liquid storefront with a heavily theme-driven UI layer, enhanced by performance scripts and marketing integrations.",
     image: "/sh.png",
     color: "from-emerald-500/20 to-teal-600/20",
     accent: "#10b981",
