@@ -111,21 +111,6 @@ const projects = [
     featured: false,
   },
   {
-    title: "SH",
-    description:
-      "The website is a fairly standard Shopify Liquid storefront with a heavily theme-driven UI layer, enhanced by performance scripts and marketing integrations.",
-    image: "/sh.png",
-    color: "from-emerald-500/20 to-teal-600/20",
-    accent: "#10b981",
-    glow: "rgba(16,185,129,0.15)",
-    tech: ["Shopify", "Shopify Liquid", "JavaScript", "LazySizes", "CDN", "Shopify Checkout"],
-    github: "#",
-    live: "https://www.shjewellery.com.au/",
-    stars: 189,
-    forks: 22,
-    featured: false,
-  },
-  {
     title: "Silverskin",
     description:
       "Developed and maintained an e-commerce coffee brand platform. Implemented responsive UI components, online store functionality, SEO optimisation, analytics integration, and performance enhancements to deliver a scalable and user-friendly shopping experience across devices.",
@@ -138,6 +123,21 @@ const projects = [
     live: "https://silverskincoffee.ie/",
     stars: 97,
     forks: 15,
+    featured: false,
+  },
+  {
+    title: "SH",
+    description:
+      "The website is a fairly standard Shopify Liquid storefront with a heavily theme-driven UI layer, enhanced by performance scripts and marketing integrations.",
+    image: "/sh.png",
+    color: "from-emerald-500/20 to-teal-600/20",
+    accent: "#10b981",
+    glow: "rgba(16,185,129,0.15)",
+    tech: ["Shopify", "Shopify Liquid", "JavaScript", "LazySizes", "CDN", "Shopify Checkout"],
+    github: "#",
+    live: "https://www.shjewellery.com.au/",
+    stars: 189,
+    forks: 22,
     featured: false,
   },
   {
