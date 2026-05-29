@@ -51,21 +51,6 @@ const projects = [
     featured: true,
   },
   {
-    title: "PRYA",
-    description:
-      "The website is focused on affordable luxury, jewellery, and fashion accessories. Technically, it is a heavily optimised Shopify storefront designed for high-volume social commerce traffic from Instagram, TikTok, and paid ads.",
-    image: "/praya.png",
-    color: "from-violet-500/20 to-fuchsia-600/20",
-    accent: "#8b5cf6",
-    glow: "rgba(139,92,246,0.15)",
-    tech: ["Shopify", "JavaScript", "React", "jQuery", "Swiper.js", "core-js"],
-    github: "#",
-    live: "https://prya.co.uk/",
-    stars: 0,
-    forks: 0,
-    featured: true,
-  },
-  {
     title: "Kings rental car",
     description:
       "Built and maintained a responsive car rental booking website with features for vehicle search, filtering, and reservations. Developed dynamic UI components, integrated APIs for real-time availability and pricing, and ensured mobile responsiveness and cross-browser compatibility. Focused on performance optimization and improving overall user experience.",
@@ -78,6 +63,21 @@ const projects = [
     live: "https://kingsrentalcars.com/en",
     stars: 74,
     forks: 13,
+    featured: true,
+  },
+  {
+    title: "PRYA",
+    description:
+      "The website is focused on affordable luxury, jewellery, and fashion accessories. Technically, it is a heavily optimised Shopify storefront designed for high-volume social commerce traffic from Instagram, TikTok, and paid ads.",
+    image: "/praya.png",
+    color: "from-violet-500/20 to-fuchsia-600/20",
+    accent: "#8b5cf6",
+    glow: "rgba(139,92,246,0.15)",
+    tech: ["Shopify", "JavaScript", "React", "jQuery", "Swiper.js", "core-js"],
+    github: "#",
+    live: "https://prya.co.uk/",
+    stars: 0,
+    forks: 0,
     featured: false,
   },
   {
