@@ -126,6 +126,21 @@ const projects = [
     featured: false,
   },
   {
+    title: "Raisky",
+    description:
+      "Luxury travel concierge platform, building responsive and user-friendly interfaces for bespoke travel services. Developed UI components for service pages, enquiry forms, and travel packages, ensuring smooth navigation and high-quality user experience.",
+    image: "/raisky.png",
+    color: "from-cyan-500/20 to-blue-600/20",
+    accent: "#06b6d4",
+    glow: "rgba(6,182,212,0.15)",
+    tech: ["HTML5 / CSS3", "JavaScript", "React", "Next.js", "Tailwind CSS", "REST API"],
+    github: "#",
+    live: "https://raisky.travel/en/",
+    stars: 143,
+    forks: 19,
+    featured: false,
+  },
+  {
     title: "SH",
     description:
       "The website is a fairly standard Shopify Liquid storefront with a heavily theme-driven UI layer, enhanced by performance scripts and marketing integrations.",
@@ -151,21 +166,6 @@ const projects = [
     tech: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React.js", "Next.js", "Tailwind CSS", "Vercel"],
     github: "#",
     live: "https://puzzleslide.vercel.app/",
-    stars: 143,
-    forks: 19,
-    featured: false,
-  },
-  {
-    title: "Raisky",
-    description:
-      "Luxury travel concierge platform, building responsive and user-friendly interfaces for bespoke travel services. Developed UI components for service pages, enquiry forms, and travel packages, ensuring smooth navigation and high-quality user experience.",
-    image: "/raisky.png",
-    color: "from-cyan-500/20 to-blue-600/20",
-    accent: "#06b6d4",
-    glow: "rgba(6,182,212,0.15)",
-    tech: ["HTML5 / CSS3", "JavaScript", "React", "Next.js", "Tailwind CSS", "REST API"],
-    github: "#",
-    live: "https://raisky.travel/en/",
     stars: 143,
     forks: 19,
     featured: false,
