@@ -200,6 +200,21 @@ const projects = [
     forks: 34,
     featured: false,
   },
+  {
+    title: "Luxury for you",
+    description:
+      "Built and maintained frontend features for a luxury fashion e-commerce website using modern web technologies, focusing on responsive design, performance optimisation, reusable UI components, accessibility, and seamless user experience across desktop and mobile devices.",
+    image: "/luxuryforyou.png",
+    color: "from-indigo-500/20 to-purple-600/20",
+    accent: "#6366f1",
+    glow: "rgba(99,102,241,0.15)",
+    tech: ["HTML5", "CSS3", "JavaScript", "React", "Tailwind CSS", "Magento", "PHP"],
+    github: "#",
+    live: "https://luxuryforyou.com/gb_en",
+    stars: 248,
+    forks: 34,
+    featured: false,
+  },
 ];
 
 const container = {
