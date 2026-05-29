@@ -156,21 +156,6 @@ const projects = [
     featured: false,
   },
   {
-    title: "SH",
-    description:
-      "The website is a fairly standard Shopify Liquid storefront with a heavily theme-driven UI layer, enhanced by performance scripts and marketing integrations.",
-    image: "/sh.png",
-    color: "from-emerald-500/20 to-teal-600/20",
-    accent: "#10b981",
-    glow: "rgba(16,185,129,0.15)",
-    tech: ["Shopify", "Shopify Liquid", "JavaScript", "LazySizes", "CDN", "Shopify Checkout"],
-    github: "#",
-    live: "https://www.shjewellery.com.au/",
-    stars: 189,
-    forks: 22,
-    featured: false,
-  },
-  {
     title: "Luxury for you",
     description:
       "Built and maintained frontend features for a luxury fashion e-commerce website using modern web technologies, focusing on responsive design, performance optimisation, reusable UI components, accessibility, and seamless user experience across desktop and mobile devices.",
