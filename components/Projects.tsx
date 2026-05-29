@@ -171,21 +171,6 @@ const projects = [
     featured: false,
   },
   {
-    title: "Puzzleslide",
-    description:
-      "Developed an interactive puzzle game web application. Implemented responsive UI components, dynamic game logic, optimised state management, and cloud deployment on Vercel to deliver a fast and engaging user experience.",
-    image: "/puzzleslide.png",
-    color: "from-cyan-500/20 to-blue-600/20",
-    accent: "#06b6d4",
-    glow: "rgba(6,182,212,0.15)",
-    tech: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React.js", "Next.js", "Tailwind CSS", "Vercel"],
-    github: "#",
-    live: "https://puzzleslide.vercel.app/",
-    stars: 143,
-    forks: 19,
-    featured: false,
-  },
-  {
     title: "Luxury for you",
     description:
       "Built and maintained frontend features for a luxury fashion e-commerce website using modern web technologies, focusing on responsive design, performance optimisation, reusable UI components, accessibility, and seamless user experience across desktop and mobile devices.",
@@ -198,6 +183,21 @@ const projects = [
     live: "https://luxuryforyou.com/gb_en",
     stars: 248,
     forks: 34,
+    featured: false,
+  },
+  {
+    title: "Puzzleslide",
+    description:
+      "Developed an interactive puzzle game web application. Implemented responsive UI components, dynamic game logic, optimised state management, and cloud deployment on Vercel to deliver a fast and engaging user experience.",
+    image: "/puzzleslide.png",
+    color: "from-cyan-500/20 to-blue-600/20",
+    accent: "#06b6d4",
+    glow: "rgba(6,182,212,0.15)",
+    tech: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React.js", "Next.js", "Tailwind CSS", "Vercel"],
+    github: "#",
+    live: "https://puzzleslide.vercel.app/",
+    stars: 143,
+    forks: 19,
     featured: false,
   },
   {
