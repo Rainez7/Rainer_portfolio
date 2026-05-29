@@ -203,12 +203,12 @@ const projects = [
   {
     title: "Fraser",
     description:
-      "Built and maintained frontend features for a luxury fashion e-commerce website using modern web technologies, focusing on responsive design, performance optimisation, reusable UI components, accessibility, and seamless user experience across desktop and mobile devices.",
+      "Developed and maintained high-end, responsive web interfaces for a global luxury yacht brokerage brand, ensuring premium user experiences aligned with the company's luxury identity. Collaborated closely with UI/UX designers and marketing teams to create visually engaging and optimised digital platforms for yacht sales, charter services, and client engagement.",
     image: "/fraser.png",
     color: "from-indigo-500/20 to-purple-600/20",
     accent: "#6366f1",
     glow: "rgba(99,102,241,0.15)",
-    tech: ["HTML5", "CSS3", "JavaScript", "React", "Tailwind CSS", "Magento", "PHP"],
+    tech: ["HTML5", "Tailwind CSS", "JavaScript", "Vue.js", "React", "REST APIs"],
     github: "#",
     live: "https://www.fraseryachts.com/",
     stars: 248,
